@@ -1,17 +1,101 @@
 :root{
-    --
+    --azul:#044157;
+    --verde: #A8FC0E;
 }
 
 html{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif!important;
 }
 
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
+body{
+    padding-top: 100px;
+}
+
+.row{
+    margin: 0;
+}
 /*------------------------------------------------------------------------------------------------------------------------*/
 
+/* MENU DE NAVEGACION */
+.barraMenu, .barraRedes{
+    float: right;
+    width: 100%;
+}
 
+.barraMenu{
+    border-top: solid 1px var(--verde);
+    font-size: 16px!important;
+    font-weight: bold;
+}
+
+.barraRedes li{
+    font-size: 12px!important;
+}
+
+.barraRedes li i{
+    color: #ffffff;
+    font-size: 14px!important;
+}
+
+header{
+    width: 100%;
+}
+
+.logo{
+    margin: 10px 0;
+}
+
+.logo img{
+    margin: auto;
+}
+
+.menuPrinc{
+    background-color: var(--azul);
+    width: 100%;
+}
+
+.menuPrinc li{
+    list-style: none;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.menuPrinc li a{
+    color: #ffffff;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.menuPrinc li a:hover{
+    color: var(--verde);
+}
+
+.menuPrinc ul{
+    float: right;
+    margin: 12px 0;
+}
+
+.princ{
+    height:86.25px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+font-family: 'Roboto', sans-serif;
 
 
 @media only screen and () {
