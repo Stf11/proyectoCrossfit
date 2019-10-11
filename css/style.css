@@ -13,86 +13,103 @@ html{
 }
 
 body{
-    padding-top: 100px;
+
 }
 
-.row{
-    margin: 0;
-}
-/*------------------------------------------------------------------------------------------------------------------------*/
-
-/* MENU DE NAVEGACION */
-.barraMenu, .barraRedes{
-    float: right;
-    width: 100%;
+a {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 24px;
 }
 
-.barraMenu{
-    border-top: solid 1px var(--verde);
-    font-size: 16px!important;
-    font-weight: bold;
-}
-
-.barraRedes li{
-    font-size: 12px!important;
-}
-
-.barraRedes li i{
-    color: #ffffff;
-    font-size: 14px!important;
+a:hover {
+  color: var(--verde);
+  text-decoration: none;
 }
 
 header{
-    width: 100%;
+  opacity: 0.88;
+  z-index: 4;
+  background: #044157;
 }
 
-.logo{
-    margin: 10px 0;
+.cont-header {
+  padding: 20px 0;
 }
+
+
+/* MENU DE NAVEGACION */
 
 .logo img{
-    margin: auto;
+    margin: 0;
+    width: 230px;
 }
 
-.menuPrinc{
-    background-color: var(--azul);
-    width: 100%;
+.nav-top-bar {
+  font-size: 0.7em;
 }
 
-.menuPrinc li{
-    list-style: none;
+.nav-link  {
     padding: 0 10px;
-    text-decoration: none;
 }
 
-.menuPrinc li a{
-    color: #ffffff;
-    font-style: italic;
-    text-decoration: none;
-}
-
-.menuPrinc li a:hover{
-    color: var(--verde);
-}
-
-.menuPrinc ul{
-    float: right;
-    margin: 12px 0;
-}
-
-.princ{
-    height:86.25px;
-    margin: 10px 0;
+.linea-tbar{
+    border-top: solid 3px var(--verde);
+    margin-top:1em !important;
+    margin-bottom:1em !important;
 }
 
 
 
+/*SLIDER*/
+.carousel-caption {
+  bottom: 40%;
+  text-align: left;
+}
 
 
 
+.carousel-item h5 {
+  font-family: 'Roboto';
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1.2em;
+  text-shadow: 2px 4px 4px rgba(100,100,100,0.5);
+  text-transform: uppercase;
+}
 
 
+/*FEATURE BAR*/
 
+#caracteristicas{
+  background-color: var(--verde);
+  padding: 36px 0;
+}
+
+#caracteristicas p{
+  color: var(--azul);
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+#caracteristicas h3 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34px;
+  text-shadow: 3px 3px 3px rgba(100,100,100,0.5);
+}
+
+#caracteristicas i {
+  color: var(--azul);
+  text-shadow: none;
+}
 
 
 font-family: 'Roboto', sans-serif;
