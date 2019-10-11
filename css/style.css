@@ -36,6 +36,18 @@ header{
   background: #044157;
 }
 
+footer {
+  background-color: var(--azul);
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
 .cont-header {
   padding: 20px 0;
 }
@@ -66,14 +78,13 @@ header{
 
 /*SLIDER*/
 .carousel-caption {
-  bottom: 40%;
+  bottom: 26%;
+  font-family: 'Roboto';
+  left: 22%;
   text-align: left;
 }
 
-
-
 .carousel-item h5 {
-  font-family: 'Roboto';
   font-size: 3em;
   font-weight: 900;
   line-height: 1.2em;
@@ -81,6 +92,27 @@ header{
   text-transform: uppercase;
 }
 
+.carousel-item p {
+  font-size: 1.1em;
+  font-weight: 900;
+  line-height: 1.3em;
+  text-shadow: 2px 4px 4px rgba(100,100,100,0.5);
+  text-transform: uppercase;
+}
+
+.btn-slider {
+  background-color: var(--verde);
+  border: 2px solid #97e610;
+  color: var(--azul);
+  font-weight: 900;
+  margin-top: 28px;
+}
+
+.btn-slider:hover {
+  background-color: #90d815;
+  border: 2px solid var(--verde);
+  color: var(--azul);
+}
 
 /*FEATURE BAR*/
 
